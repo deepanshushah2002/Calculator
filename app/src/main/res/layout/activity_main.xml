@@ -183,7 +183,7 @@
             <com.google.android.material.button.MaterialButton
                 style="@style/digitbutton"
                 android:id="@+id/btn_dot"
-                android:onClick="onDigitClick"
+                android:onClick="onOperatorClick"
                 android:text="."/>
             <com.google.android.material.button.MaterialButton
                 style="@style/operatorbutton"

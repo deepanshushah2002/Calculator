@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/data_tv"
-        android:layout_width="388dp"
-        android:layout_height="39dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginEnd="7dp"
         android:text=""
         android:textAlignment="viewEnd"
@@ -194,16 +194,4 @@
                 android:text="="/>
         </LinearLayout>
     </LinearLayout>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="25dp"
-        app:iconTint="@color/btnBackground2"
-        android:layout_height="26dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="4dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/moon" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
